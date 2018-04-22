@@ -1,0 +1,11 @@
+Welcome back Agent C!
+
+Your help is needed once again to solve an urgent matter.
+Our digital forensics division is trying to track the source of a phishing attack on one of our government officials.
+We have found an email which seems to be related to this attempt and points to a news blog.
+We require your skills to track the source of this sophisticated attack.
+
+The following link (/main) leads to the news blog.
+
+Good luck!,
+  M.|
