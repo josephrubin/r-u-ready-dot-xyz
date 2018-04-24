@@ -1,0 +1,37 @@
+220 pyftpdlib 1.5.3 ready.
+USER user
+331 Username ok, send password.
+PASS 12345
+230 Login successful.
+SYST
+215 UNIX Type: L8
+FEAT
+211-Features supported:
+ EPRT
+ EPSV
+ MDTM
+ MFMT
+ MLST type*;perm*;size*;modify*;unique*;unix.mode;unix.uid;unix.gid;
+ REST STREAM
+ SIZE
+ TVFS
+ UTF8
+211 End FEAT.
+OPTS MLST type;perm;size;modify;unique;unix.mode;
+200 MLST OPTS type;perm;size;modify;unique;unix.mode;
+OPTS UTF8 ON
+501 Invalid argument.
+PWD
+257 "/" is the current directory.
+TYPE A
+200 Type set to: ASCII.
+PASV
+227 Entering passive mode (35,204,90,89,254,167).
+MLSD
+125 Data connection already open. Transfer starting.
+226 Transfer complete.
+QUIT
+221 Goodbye.
+er complete.
+QUIT
+221 Goodbye.
