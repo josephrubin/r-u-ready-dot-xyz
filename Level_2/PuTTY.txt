@@ -1,0 +1,8 @@
+SSH through port 22 gives be message (server sent public key):
+login as:
+ Welcome to Backup Server!
+   All your actions are
+       being recorded!
+         Hahaha!!
+
+[Image] SSt
