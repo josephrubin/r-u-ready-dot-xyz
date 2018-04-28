@@ -1,0 +1,32 @@
+Name
+
+80211stats - simple tool to display collected madwifi 802.11 statistics
+Synopsis
+
+80211stats [-i interface] [-a] [mac...]
+Description
+
+
+ Provide statistics about the madwifi 802.11 stack. 80211stats will print a summary of statistical elements including rx errors, node, crypto and key management data.
+If a madwifi interface is specified, 80211stats will contain the output of statistics derived from interactions between the specified interface and the madwifi 802.11 stack.
+
+Options
+
+-i interface
+The madwifi interface to derive statistics for. If no interface is specified, 80211stats defaults to ath0.
+-a
+Print statstics for each station/neighbor in interface.
+mac...
+Print statistics for given list of MAC addresses.
+Examples
+
+80211stats
+Print summary of statistics derived from the madwifi 802.11 stack, not specific to any madwifi device present in the system.
+80211stats -i ath0
+Print summary of statistics specific for ath0.
+See Also
+
+athstats(8)
+Author
+
+This manual page was written by Kel Modderman <kelrin@tpg.com.au>.
